@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Curso de CSS</title>
+
+    <style type="text/css">
+
+     div{
+      /*border:5px red solid;*/
+      border-color: red green yellow blue;
+      border-width: 10px 8px 6px 3px;
+      border-style: solid dotted dashed solid;
+
+     }
+    </style>
+
+
+</head>
+<body>
+
+   <h1>Bordas - Aula 41</h1>
+
+<div class="">
+  Conteudo
+</div>
+
+</body>
+</html>

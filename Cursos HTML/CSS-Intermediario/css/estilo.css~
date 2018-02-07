@@ -1,0 +1,94 @@
+*{
+   background-color: #FAFAFA;
+
+}
+
+#principal{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  
+}
+/*Header - Cabeçalho*/
+
+  #header{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  
+  }
+  
+  #cabecalho{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height:120px;
+  background-color: #01579B;
+    
+  }
+  
+  #menu{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height:64px;
+  background-color: #263238;
+  
+  }
+  
+  #slider{
+  
+  margin: auto;
+  padding: 0;
+  width: 1200px;
+  height:400px;
+  background-color: #009688;
+  
+  
+  }
+  
+  #corpo{
+  
+  margin: auto;
+  padding: 0;
+  width: 1200px;
+  height:400px;
+  background-color: #FAFAFA;
+  
+  }
+  
+  #artigo1{
+  margin: auto;
+  padding: 0;
+  width: 200px;
+  height:200px;
+  background-color: #01579B;
+  float:left;
+  }
+  
+  #artigo2{
+  margin: auto;
+  padding: 0;
+  width: 200px;
+  height:200px;
+  background-color: #01579B;
+  float:left
+  
+  
+  }
+  
+  #rodape{
+  
+  margin: auto;
+  margin-top: 200px;
+  padding: 0;
+  width: 1200px;
+  height:400px;
+  background-color: #263238;
+  
+  }
+
+
+

@@ -1,0 +1,80 @@
+<!Doctype-html>
+<html>
+  <head>
+     <meta charset="utf-8">
+     <title>Elemento Flutuante</title>
+     
+     
+     <style type="text/css">
+     
+        body{
+          background: #F5F5F5;
+          padding: 10px;
+        }
+        
+        #conteudo-principal{
+        
+          background:#F5F5F5;
+          margin: auto;
+          margin-top: 80px;
+          padding: 10px;
+          width: 600px;
+          height: 1500px;
+        }
+        
+        .caixa{
+        
+        background: #00695C;
+        width: 100px;
+        height:64px;
+        color: #FFF;
+        
+        }
+        
+        #relative{
+        position: relative;
+        left: -30px;
+        top -50px;
+        width: 660px;
+       
+        }
+        
+        #absolute{
+        
+        postion: absolute;
+        
+        }
+        
+        #fixade{
+        
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background:#00897B;
+        
+        }
+ 
+     </style>
+     
+  </head>
+  <body>
+  
+  <div id="conteudo-principal">
+   <h1>Posicionamento</h1>
+   
+   <h4>Posicionamento Relative</h4>
+   <div id="relative" class="caixa">Relative</div>
+   
+   <h4>Posicionamento Absoluto</h4>
+   <div id="absolute" class="caixa">Absoluto</div>
+   
+   <h4>Posicionamento Fixa</h4>
+   <div id="fixade" class="caixa">Fixade</div>
+  
+  </div>
+ 
+
+  
+  </body>
+</html>

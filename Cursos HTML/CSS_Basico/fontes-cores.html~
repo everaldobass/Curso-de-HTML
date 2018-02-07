@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Curso de CSS</title>
+
+    <style type="text/css">
+
+         .vermelho{
+           color: #2D09E8;
+           font-size: 30px;
+           font-family: Bebas;
+           
+         }
+         
+    </style>
+
+
+</head>
+<body>
+
+   <p class="vermelho"> Fontes e Cores - Aula 44 </p>
+
+</body>
+</html>
