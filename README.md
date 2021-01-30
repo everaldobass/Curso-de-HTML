@@ -5,10 +5,10 @@ Cursos completo teóricos e práticos para o Desenvolvimento Web
 Aprenda a desenvolver sites e sistemas web do zero utilizando HTML, CSS, Bootstrap, JavaScript, JQuery, PHP, POO e MySQL
 
 ## Instrutor
-Jamilton Damasceno
-Jorge Sant Ana
-Fessor Bruno
-FSN Cursos
+1. Jamilton Damasceno
+2. Jorge Sant Ana
+3. Fessor Bruno
+4. FSN Cursos
 
 
 ## Icons
