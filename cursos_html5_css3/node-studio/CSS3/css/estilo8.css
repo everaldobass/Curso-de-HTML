@@ -1,0 +1,25 @@
+/*Curso de CSS3 - Aula 08 - Text (Parte 01) */
+p{
+	color: red;
+	text-transform: uppercase;
+	text-align: justify;
+	text-indent: 20px;
+	line-height: 25px;
+	letter-spacing: 5px;
+	word-spacing: -3px;
+	
+}
+h1{
+text-align: left;
+text-decoration: overline;
+
+}
+h2{
+text-align: right;
+text-decoration-line: underline;
+text-shadow: 3px 3px 4px red; 
+}
+h3{
+text-align: center;
+text-decoration: line-through;
+}

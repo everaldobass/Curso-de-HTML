@@ -1,0 +1,66 @@
+
+/*Curso de CSS3 - Aula 11 - Overflow e Opacity  
+
+
+
+ul{
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+width: 200px;
+background-color: #f1f1f1;
+border: 1px solid #555;
+}
+
+li{
+text-align: center;
+border-bottom: 1px solid #fff;
+
+}
+
+li a {
+display: block;
+color: #fff;
+padding: 8px 16px;
+text-decoration: none;
+
+}
+
+li a:hover{
+background-color: #555;
+color: fff;
+
+}
+.ativo{
+background-color: #4caf50;
+color: white;
+
+}
+*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.ativo {
+    background-color: #4CAF50;
+}

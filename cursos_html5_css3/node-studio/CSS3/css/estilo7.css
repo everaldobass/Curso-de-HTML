@@ -1,0 +1,19 @@
+/*Curso de CSS3 - Aula 07 - Margin e Padding */
+#exemplo1{
+background-color: green;
+color: #fff;
+width: 800px;
+height: 120px;
+padding: 10px 10px 10px 10px;
+
+}
+#exemplo2{
+background-color: blue;
+color: #fff;
+width: 600px;
+margin-top: 100px;
+margin-left: 30px;
+margin-right: 20px;
+margin-bottom: 5px;
+
+}

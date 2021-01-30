@@ -1,0 +1,43 @@
+body{
+ background-color: lightblue;
+}
+/*Seletor universal
+*{margin: 0; padding: 0; color: red;}
+/*Seletor Tag */
+
+h1{color: white; font-size: 50px; text-align: center;}
+p{color: green; font-size: 20px; }
+
+.campos[type=text]{
+width: 200px; 
+background-color: #ccc;
+height: 35px;
+border-radius: 5px;
+
+}
+.campos[type=email]{
+width: 200px; 
+background-color: #ccc;
+height: 35px;
+border-radius: 5px;
+
+}
+}
+.campos[type=submit]{
+width: 200px; 
+background-color: #fff;
+height: 35px;
+border-radius: 5px;
+margin-top: 5px;
+
+}
+
+/*Aula 2 
+h1{
+color: blue;
+font-size: 60px;
+font-family: tahoma;
+}
+*/
+
+/*Aula 3 */

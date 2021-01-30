@@ -1,0 +1,36 @@
+/*Curso de CSS3 - Aula 10 - Box Sizing e Box Shadow */
+*{
+box-sizing: border-box;
+
+}
+
+#conteudo1{
+background-color: red;
+width: 300px;
+padding: 20px;
+box-shadow: 10px 10px 5px green;
+float: left;
+margin-top: 15px;
+
+}
+#conteudo2{
+background-color: blue;
+color: #fff;
+width: 300px;
+height: 150px;
+padding: 20px;
+margin-top: 15px;
+margin-left: 5px;
+float: left;
+}
+#conteudo3{
+background-color: #ccc;
+color: #fff;
+padding: 10px;
+width: 300px;
+margin-top: 20px;
+margin-left: 5px;
+float: left;
+
+
+}

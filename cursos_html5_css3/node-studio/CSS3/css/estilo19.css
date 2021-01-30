@@ -1,0 +1,27 @@
+/*Curso de CSS3 - Aula 19 - Position  */
+*{
+margin: 0px;
+padding: 0px;
+}
+
+
+#conteudo{
+width: 600px;
+height: 600px;
+background-color: red;
+position: relative;
+float: left;
+
+}
+#texto{
+width: 500px;
+background-color: green;
+position: absolute;left:0;top:0;
+
+}
+#texto1{
+width: 500px;
+background-color: green;
+position: absolute;right:0;bottom:0;
+
+}

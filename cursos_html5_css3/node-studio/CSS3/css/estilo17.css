@@ -1,0 +1,35 @@
+/*Curso de CSS3 - Aula 17 - Colors e Gradients (Parte 01)  */
+*{
+margin: 0px;
+padding: 0px;
+}
+
+#cores1{
+width: 200px;
+height: 200px;
+float: left;
+background:linear-gradient(red,blue);
+
+}
+
+#cores2{
+width: 200px;
+height: 200px;
+float: left;
+background:linear-gradient(to right,red,blue);
+}
+
+#cores3{
+width: 200px;
+height: 200px;
+float: left;
+background:linear-gradient(to left,red,blue);
+
+}
+
+#cores4{
+width: 200px;
+height: 200px;
+float: left;
+background:linear-gradient(to top,green,red,blue);
+}

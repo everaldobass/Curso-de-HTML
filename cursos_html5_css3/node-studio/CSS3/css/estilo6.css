@@ -1,0 +1,17 @@
+/*Posso utilizar o mini-whidth e mini-heith*/
+#conteudo1{
+max-width: 500px;
+max-height: 200px;
+background-color: green;
+color: #fff;
+padding: 20px;
+}
+#conteudo2{
+background-color: #ccc;
+color: #fff;
+min-width: 500px;
+min-height: 200px;
+text-align: center;
+margin-top: 20px;
+
+}

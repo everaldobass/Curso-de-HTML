@@ -1,0 +1,34 @@
+/*Curso de CSS3 - Aula 12 - Border Radius   */
+#bloco1{
+	width: 300px;
+	height: 200px;
+	background-color: #cddc39;
+	margin-left: 10px;
+	float: left;
+	border-radius: 20px;
+
+
+}
+
+
+#bloco2{
+	width: 300px;
+	height: 200px;
+	background-color: #00bfa5;
+	margin-left: 10px;
+	float: left;
+	border-radius: 20px 50px 80px;
+
+
+}
+
+
+#bloco3{
+	width: 300px;
+	height: 200px;
+	background-color: #01579b;
+    margin-left: 10px;
+	float: left;
+	border-radius: 30px 0px  70px  80px;
+
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Curso de CSS3 - Aula 21 - Transition  </title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+
+  <div id="exemplo1">
+
+  </div>
+  <div id="exemplo2">
+
+  </div>
+  <div id="exemplo3">
+
+  </div>
+
+
+</body>
+</html>

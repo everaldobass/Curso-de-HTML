@@ -1,0 +1,15 @@
+/*Curso de CSS3 - Aula 22 - Background (Final)  */
+*{
+margin: 0px;
+padding: 0px;
+}
+
+body{
+background-image:url(../img/computador.jpeg);
+background-repeat:no-repeat;
+background-position:center;
+background-size:1000px 1000px;
+
+
+
+}

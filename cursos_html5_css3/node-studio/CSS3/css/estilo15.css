@@ -1,0 +1,7 @@
+/*Curso de CSS3 - Aula 15 - Google Fonts  */
+*{font-size: 100%;}
+p{
+
+font-family: 'Open Sans', sans-serif;
+font-size: 1.2em;
+}

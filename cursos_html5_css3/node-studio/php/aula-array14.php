@@ -1,0 +1,10 @@
+<?php
+//Array associativo
+$pessoa = array("nome" => "Everaldo","Idade"=>36, "altura" => 1,75);
+$pessoa ["Cidade"] = "Jundiaí";
+
+foreach ($pessoa as $indice => $valor){
+echo $indece.":".$valor."<br>";
+}
+
+

@@ -1,0 +1,44 @@
+/*Curso de CSS3 - Aula 11 - Overflow e Opacity  */
+#conteudo{
+background-color: red;
+width: 200px;
+height: 70px;
+overflow: visible;
+float: left;
+margin-left: 5px;
+
+}
+
+#conteudo1{
+width: 200px;
+height: 70px;
+background-color: #006064;
+overflow: hidden;
+float: left;
+margin-left: 5px;
+opacity: 10;
+color: fff;
+text-align: justify;
+
+}
+#conteudo2{
+	width: 200px;
+	height: 70px;
+	background-color: #3f51b5;
+	overflow: scroll;
+float: left;
+opacity: 0,5%;
+margin-left: 5px;
+
+}
+#conteudo3{
+	width: 200px;
+	height: 70px;
+	background-color:  #9c27b0;
+	overflow: auto;
+
+float: left;
+margin-left: 5px;
+
+}
+

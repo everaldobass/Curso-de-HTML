@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Curso de CSS3 - Aula Menu com listas </title>
+	<link rel="stylesheet" type="text/css" href="css/menulistas.css">
+</head>
+<body>
+
+
+<nav id="nav-container">
+<div id="menu">
+<ul>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Sobre</a></li>
+  <li><a href="#">Contatos</a></li>
+  <li><a href="#">Cursos</a></li>
+  <li><a href="#">Midia</a></li>
+</ul>
+</nav>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+/*Curso de CSS3 - Aula 16 - Colors e Gradients (Parte 01)  */
+*{
+margin: 0px;
+padding: 0px;
+}
+
+#cores1{
+width: 200px;
+height: 200px;
+float: left;
+background-color: #40b78c;
+
+}
+
+#cores2{
+width: 200px;
+height: 200px;
+float: left;
+background-color: rgb(230,89,225);
+}
+
+#cores3{
+width: 200px;
+height: 200px;
+float: left;
+background-color: rgba(240,50,20, 0.5);
+
+}
+
+#cores4{
+width: 200px;
+height: 200px;
+float: left;
+background-color: hsla(20,100%,59%, 0.2);
+
+}

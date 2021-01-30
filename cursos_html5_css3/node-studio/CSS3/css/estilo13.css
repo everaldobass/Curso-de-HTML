@@ -1,0 +1,18 @@
+/*Curso de CSS3 - Aula 13 - Fonts */
+*{font-size: 100%;}
+p{
+font-family: Times,"Times New Roman", sans-serif;
+font-variant:small-caps;
+font-style: normal;
+font-style: italic;
+font-style: oblique;
+font-size: 1em;
+font-family: bebas;
+
+}
+/*Curso de CSS3 - Aula 14 - @Font Face */
+@font-face{
+font-family: bebas;
+src:url(BebasNeue Bold.ttf);
+
+}

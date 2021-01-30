@@ -1,0 +1,31 @@
+/*Curso de CSS3 - Aula 18 - Float */
+*{
+margin: 0px;
+padding: 0px;
+}
+
+#base{
+width: 600px;
+height: 600px;
+float: left;
+background-color: green;
+
+}
+
+#direita{
+width: 300px;
+height: 300px;
+float: right;
+background-color: blue;
+
+}
+
+#esquerda{
+width: 300px;
+height: 300px;
+float: right;
+background-color: red;
+
+
+}
+
