@@ -1,5 +1,5 @@
-# Curso de HTML5
-Curso completo de Desenvolvimento Web - Crie 6 projetos
+# Cursos de HTML5, CSS3 e PHP
+Cursos completo teóricos e práticos para o Desenvolvimento Web
 
 ## Sobre este curso
 Aprenda a desenvolver sites e sistemas web do zero utilizando HTML, CSS, Bootstrap, JavaScript, JQuery, PHP, POO e MySQL
@@ -7,6 +7,9 @@ Aprenda a desenvolver sites e sistemas web do zero utilizando HTML, CSS, Bootstr
 ## Instrutor
 Jamilton Damasceno
 Jorge Sant Ana
+Fessor Bruno
+FSN Cursos
+
 
 ## Icons
 :package: nova funcionalida
