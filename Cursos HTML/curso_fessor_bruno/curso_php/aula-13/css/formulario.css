@@ -1,0 +1,30 @@
+*{
+margin:0px;
+padding:0px;
+font-family: sans-serif;
+box-sizing: border-box
+}
+
+body{
+background-color: #DEDEDE;
+
+display:flex;
+min-heiht:100vh;
+}
+
+form{
+margin:auto;
+width:100%;
+max-width:500px;
+background: #F3F3F3;
+padding: 30px;
+border:1px solid;
+}
+input{
+display:block;
+padding:10px;
+width:100%;
+margin:30px;
+font-size:20px;
+}
+

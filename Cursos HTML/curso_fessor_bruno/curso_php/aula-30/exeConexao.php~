@@ -1,0 +1,10 @@
+<?php
+//$VariavelDeConexao  mysqli_connect("NomeDaMaquina","Usuario","Senha");
+$conexao=mysqli_connect("localhost","root","123");
+
+//Seleciona o banco($coloca a conexao criada, "NomedoBanco");
+mysqli_select_db($conexao,"db_schoolinux");
+
+echo "$conexao Conectado com Sucesso.";
+
+?>

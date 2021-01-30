@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="css/formulario.css"/>
+  <title>Formulario - Aula 13</title>
+</head>
+<body>
+<div id="principal">
+
+    <h2>Formulário de Cadastro</h2>
+   <form  name="cad" method="post" action="inserir.php">
+   <label>Nome</label><br/>
+   <input type="text" name="nome" size="40" maxlength="30" placeholder="Digite o Nome"/><br/><br/>
+
+   <label>Sobrenome</label><br/>
+   <input type="text" name="user" size="40" maxlength="30" placeholder="Digite o Sobrenome"><br/><br/>
+
+   <label>Senha</label><br/>
+   <input type="password" name="senha" size="40" maxlength="30"/><br/><br/>
+
+   <label>E-mail</label><br/>
+   <input type="text" name="email" size="40" maxlength="30" placeholder="exemplo@exemplo.com"><br/><br/>
+
+   <label>Telefone</label><br/>
+   <input type="txt" name="telefone" size="40" maxlength="30" placeholder="(xx)xxxxx-xxxx"><br/><br/>
+
+   <label>Estatus</label><br/>
+   <input type="txt" name="st" size="10" maxlength="30" placeholder="0 ou 1"><br/><br/>
+
+   <label>Observações</label><br/>
+   <input type="txt" name="obs" size="10" maxlength="30" placeholder="Digite uma Observação"><br/><br/>
+
+   <input class="bt" type="submit" value="Enviar"/><br/><br/>
+   <input class="bt" type="reset" value="Limpar"/>
+
+   </form>
+
+
+</div>
+</body>
+</html>

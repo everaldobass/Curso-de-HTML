@@ -1,0 +1,28 @@
+*{
+margin: 0PX;
+padding: 0PX;
+font-family: Verdana;
+font-size: 95%;
+}
+
+ul{
+list-style-type: none;
+
+}
+ul li{
+background-color: #ddd;
+width: 150px;
+height: 30px;
+line-height: 30px;
+cursor: pointer;
+float: left;
+text-align: center;
+
+}
+
+ul li:houver{
+background-color: #fff;
+}
+
+
+

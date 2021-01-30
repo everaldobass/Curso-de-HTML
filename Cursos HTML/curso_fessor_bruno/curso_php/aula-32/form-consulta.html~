@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="_css/estilo.css"/>
+  <title> Aula 32 - Formulário</title>
+</head>
+<body>
+    <form name="CadConsulta" method="post" action="selecte32.php">
+
+
+    <label>Categoria</label><br/>
+    <input type="text" name="Cat" size="5" maxlenght="2"/><br/><br/>
+
+    <input type="submit"  value="Consultar"/>
+
+
+    </form>
+</body>
+</html>

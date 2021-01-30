@@ -1,0 +1,115 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*Todo o Corpo do Site*/
+body{
+	background-color: #eceff1;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+}
+
+/*Todo Estrutura da Div onde ficar Nav, Section, e Formulario*/
+.container{
+	margin: auto;
+	width: 1200px;
+	margin-top: 20px;
+	padding: 10px;
+}
+/* Nave onde fica o Menu*/
+nav{
+	width: 300px;
+	height: 600px;
+	background-color: #263238;
+	float: left;
+	box-sizing: border-box;
+	padding: 20px;
+
+
+}
+
+/* Section fica o Fomulário*/
+section{
+	width: 895px;
+	height: 600px;
+	margin-left: 05px;
+	float: left;
+	background-color: #fff;
+	box-sizing: border-box;
+	padding-left:10px;
+
+}
+article{
+width: 95%;
+box-sizing: border-box;
+padding: 10px;
+background-color: #eceff1;
+margin-bottom: 5px;
+
+}
+
+h1{
+color: #01579b;
+}
+/* Rodape
+footer{
+width: 1180px;
+height: 80px;
+background-color: #263238;
+margin-top: 505px;
+padding:10px;
+border: 5px;
+*/
+
+}
+p{
+text-align: center;
+padding: 30px;
+color: #fff;
+}
+
+/* Formatação do Menu*/
+ul.menu{
+list-style-type: none;
+
+}
+ul.menu li{
+width: 250px;
+height: 50px;
+line-height: 50px;
+background-color: #01579b;
+color: #fff;
+margin-top: 10px;
+box-sizing: border-box;
+padding-left:30px;
+border-radius: 5px;
+}
+
+/* Formatação do Link das páginas*/
+a{
+text-decoration: none;
+color: #fff;
+}
+
+/* Formatação dos botões*/
+.btn{
+	width: 100px;
+	height: 30px;
+	border: 1px solid #ddd;
+	background-color: #01579b;
+	color: #fff;
+	cursor: pointer;
+}
+/* Formatação dos Campos do Cadastro*/
+{
+.campo{
+width: 500px;
+height: 30px;
+border: 1px solid #01579b;
+border-radius: 3px;
+margin-top: 5px;
+margin-bottom: 10px;
+}
+
+
+

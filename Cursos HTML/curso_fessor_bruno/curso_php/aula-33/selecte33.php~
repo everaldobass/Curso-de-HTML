@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="_css/estilo.css"/>
+  <title> Aula 33 - Selecionar todos os registros da Tb_Produtos</title>
+</head>
+<body>
+
+<table border="1">
+   <tr>
+      <td>Codigo</td><td>Produto</td><td>Preço</td><td>Quantidade</td><td>Categoria</td>
+   </tr>
+
+<?php
+
+include"conexao.inc";
+
+$vcat1=$_POST["Cat1"];
+$vcat2=$_POST["Cat2"];
+
+$sql="SELECT * FROM tb_produtos WHERE cat=$vcat1 OR cat=$vcat2";
+
+$res=mysqli_query($con,$sql);
+
+while($vreg=mysqli_fetch_row($res)){
+
+$vcod=$vreg[0];
+$vprod=$vreg[1];
+$vpreco=$vreg[2];
+$vqtde=$vreg[3];
+$vcat=$vreg[4];
+
+echo "<tr>";
+echo "<td>$vcod</td><td>$vprod</td><td>$vpreco</td><td>$vqtde</td><td>$vcat</td>";
+echo "</tr>";
+
+}
+
+mysqli_close($con);
+?>
+
+</table>
+
+<br/>
+<a href="form-consulta.html"/>Voltar<a/>
+<a href="form-aula33.html"/>Cadastrar<a/>
+
+</body>
+</html>

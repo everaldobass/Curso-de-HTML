@@ -1,0 +1,50 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+body{
+background-color: #ccc;
+width:960px;
+height:200px;
+margin:auto;
+
+
+}
+
+#principal{
+background-color: #FFF;
+width:500px;
+height:300px;
+margin:auto;
+border-radius:5px;
+margin: 200px;
+
+}
+
+label{
+font-size:20px;
+}
+form{
+width:400px;
+height:12px;
+margin:auto;
+}
+
+.bt{
+background-color: #ff9800;
+color: #FFF;
+font-size:20px;
+border-radius:5px;
+width:100px;
+height:40px;
+
+
+}
+h2{
+text-align:center;
+color:#006064;
+margin: 15px;
+padding: 15px;
+
+}

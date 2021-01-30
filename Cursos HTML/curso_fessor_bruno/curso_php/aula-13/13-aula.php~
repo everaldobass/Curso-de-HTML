@@ -1,0 +1,12 @@
+<?php
+
+$vnome=$_GET["nome"];
+$vsenha=$_GET["senha"];
+
+
+echo"Nome: " .$vnome."<br/> Senha: ".$vsenha;
+
+
+
+?>
+

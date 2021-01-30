@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="_css/estilo.css"/>
+  <title> Aula 33 - Formulário de Cadastro no Banco</title>
+</head>
+<body>
+
+    <h1>Formulário para cadastrar produtos.</h1>
+    <h3>Chama o arquivo cadastro.php.</h3>
+
+
+    <form name="CadProd" method="post" action="cadastro.php">
+
+    <label>Código</label><br/>
+    <input type="text" name="Cod" size="40" maxlength="30"/><br/><br/>
+
+    <label>Produto</label><br/>
+    <input type="text" name="Prod" size="60" maxlength="50"/><br/><br/>
+
+    <label>Preço</label><br/>
+    <input type="text" name="Preco" size="10" /><br/><br/>
+
+    <label>Quantidade</label><br/>
+    <input type="text" name="Qtde" size="10" /><br/><br/>
+
+    <label>Categoria</label><br/>
+    <input type="text" name="Cat" size="10" /><br/><br/>
+
+    <input type="submit"  value="Gravar"/>
+    <input type="reset"   value="Limpar"/>
+
+    </form>
+</body>
+</html>

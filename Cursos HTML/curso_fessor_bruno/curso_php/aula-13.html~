@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="_css/estilo.css"/>
+  <title>Formulario - Aula 13</title>
+</head>
+<body>
+<div>
+    <form name="cadastro" method="post" action="aula-13.php"/>
+
+    <label>Nome: </label><br>
+    <input type="text" name="nome" size="40" maxlength="30"/><br/><br/>
+    <label>Senha: </label><br/>
+    <input type="password" name="senha" size="40" maxlength="20"><br/><br/>
+
+    <input type="submit"  value="Enviar"/>
+    <input type="reset"  value="Linpar">
+    
+    </form>
+</div>
+</body>
+</html>

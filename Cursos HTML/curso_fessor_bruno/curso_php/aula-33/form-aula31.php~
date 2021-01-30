@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="_css/estilo.css"/>
+  <title> Aula 31 - Formulário</title>
+</head>
+<body>
+    <form name="CadProd" method="post" action="aula31.php">
+
+    <label>Código</label><br/>
+    <input type="text" name="Cod" size="40" maxlength="30"/><br/><br/>
+
+    <label>Produto</label><br/>
+    <input type="text" name="Prod" size="60" maxlength="50"/><br/><br/>
+
+    <label>Preço</label><br/>
+    <input type="text" name="Preco" size="10" /><br/><br/>
+
+    <label>Quantidade</label><br/>
+    <input type="text" name="Qtde" size="10" /><br/><br/>
+
+    <input type="submit"  name="Salvar" value="Gravar"/>
+    <input type="reset"  name="limpar" value="Limpar"/>
+
+    </form>
+</body>
+</html>

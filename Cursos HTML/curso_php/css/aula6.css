@@ -1,0 +1,22 @@
+@font-face{
+
+font-family: bebasregular;
+src:url(../fontes/BebasNeue Regular.ttf);
+
+}
+h1{
+ font-family: 'Open Sans', sans-serif;
+
+}
+
+h2{
+ font-family: bebasregular;
+ font-size: 150px;
+}
+
+p{	
+
+font-family: 'Roboto', sans-serif;
+
+
+}

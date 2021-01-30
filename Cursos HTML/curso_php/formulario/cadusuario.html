@@ -1,0 +1,55 @@
+	<!DOCTYPE html>
+	<html lang="pt-pr">
+	<head>
+		<meta charset="UTF-8">
+		<title> Curo de HTML5 - Formulário </title>
+		<meta name="author" content="Everaldo do Nascimento" >
+		<meta name="description" content="Curso de HTML5 e CSS3">
+		<link rel="stylesheet" type="text/css" href="css/cadusuario.css">
+		
+	</head>
+	<body>
+       <div class="container">
+
+          <nav>
+             <ul class="menu">
+               <li> Usuários </li>
+               <li> Fornecedores </li>
+               <li> Clientes </li>
+               <li> Serviços </li>
+               <li> Consultas </li>
+               <li> Sair </li>
+
+             </ul>
+     
+          </nav>
+           <section>
+           <h1>Cadastro de Usuários</h1>
+            <hr>
+           <br>
+
+           <form method="post" action="index.php">
+           <input class="btn salvar" type="submit" name="enviar" value="Salvar">
+           <input class="btn editar" type="button"  name="editar" value="Editar">
+           <input class="btn limpar" type="reset"  name="limpar" value="Limpar">
+           <input class="btn excluir" type="button"  name="excluir" value="Excluir">
+
+           <br><br>
+            Nome de Usuário:<br>
+           <input class="campo" type="text" name="usuario" placeholder="Nome de usuario" required autofocus><br>
+           E-mail:<br>
+           <input class="campo" type="email" name="email" placeholder="nome@provedor" required autofocus><br>
+           Nome Completo:<br>
+           <input class="campo" type="text" name="nome" placeholder="Nome Completo" required autofocus><br>
+           
+           </form>
+
+           </section>
+  
+       </div>
+     
+
+ 
+	
+	</body>
+	</html>

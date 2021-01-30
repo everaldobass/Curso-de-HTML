@@ -1,0 +1,118 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+background-color: #eceff1;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 100%;
+color: #fff;
+}
+/* E toda box grande*/
+.container{
+width: 1200px;
+padding: 10px;
+margin: auto;
+}
+
+/* Nave e a Caixa Verde grande*/
+nav{
+width: 280px;
+height: 500px;
+background-color: #009688;
+box-sizing: border-box;
+border-radius: 5px;
+padding: 10px;
+float: left;
+}
+
+section{
+background-color: #fff;
+color: #607d8b;
+width: 870px;
+height: 500px;
+box-sizing: border-box;
+border-radius: 10px;
+margin-left: 10px;
+padding: 10px;
+float: left;
+}
+/* Menu Lateral */
+ul.menu{
+list-style-type: none;
+}
+
+ul.menu li{
+width: 200px;
+height: 40px;
+line-height: 30px;
+padding-left: 10px;
+background-color: #263238;
+border-radius: 5px;
+margin-top: 5px;
+cursor: pointer;
+
+}
+ul.menu li:hover{
+background-color: #00897b;
+
+}
+
+/* botões do menu salvar, limpar, editar, excluir */
+
+.btn{
+width: 120px;
+height: 40px;
+font-size: 20px;
+font-family: 'Source Sans Pro', sans-serif;
+border: 1px solid #607d8b;
+border-radius: 5px;
+}
+
+.salvar{
+background-color: url(../_img/icon-salvar.png);
+background-repeat: no-repeat;
+background-position: 10% 50%
+background-color: #009688;
+color: #009688;
+cursor: pointer;
+
+}
+
+.editar{
+background-color: url(../_img/icon-salvar.png);
+background-repeat: no-repeat;
+background-position: 10% 50%
+background-color: #0091ea;
+color: #0091ea;
+cursor: pointer;
+
+}
+
+.limpar{
+background-color: url(../_img/icon-salvar.png);
+background-repeat: no-repeat;
+background-position: 10% 50%
+background-color:  #ff9800;
+color: #ff9800;
+cursor: pointer;
+
+}
+
+.excluir{
+background-color: url(../_img/icon-salvar.png);
+background-repeat: no-repeat;
+background-position: 10% 50%
+background-color: #b71c1c;
+color: #b71c1c;
+cursor: pointer;
+
+}
+.campo{
+width: 200px;
+height: 30px
+border-radius 3px;
+margin-top: 5px;
+
+}
